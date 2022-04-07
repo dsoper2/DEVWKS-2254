@@ -130,3 +130,6 @@ dmypy.json
 
 # Intersight API keys
 *SecretKey*.txt
+
+# vscode
+.vscode/
