@@ -33,7 +33,7 @@ Once the container is running, go to http://localhost:1001/?arg=secret and run t
 cd ~/src; . conf.sh
 ```
 
-You should see output with a link similar to access the running notebook (be sure to use the link from the output - the access token will be unique each time the notebook is started).
+You should see output with a link to access the running notebook (be sure to use the link from the output - the access token will be unique each time the notebook is started).
 
 ```
 ...
