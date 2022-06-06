@@ -6,7 +6,6 @@ RUN rm -rf /home/developer/src
 
 COPY src /home/developer/src
 
-RUN chown -R developer: /home/developer
 
 RUN apk add linux-headers libffi-dev nano
 # .NET deps
@@ -20,6 +19,7 @@ RUN chmod +x /opt/microsoft/powershell/7/pwsh
 RUN ln -sf /opt/microsoft/powershell/7/pwsh /usr/bin/pwsh
 RUN mkdir -p /home/developer/.local/share/powershell/Modules
 RUN mv -n ./Intersight.PowerShell /home/developer/.local/share/powershell/Modules
+RUN chown -R developer: /home/developer
 
 # RUN pip3 install -r /home/developer/src/requirements.txt
 
