@@ -2,7 +2,9 @@
 
 Exploring Cisco Intersight PowerShell and Python SDK with Jupyter Notebook
 
-This repository contains example code using Intersight's PowerShell Module and Python Package.  The example code and usage instructions are provided in Jupyter Notebooks that can be run interactively.  Docker can be used to build and run eveything needed by Jupyter Notebook.
+This repository contains example code using Intersight's PowerShell Module and Python Package.  The example code and usage instructions are provided in Jupyter Notebooks that can be run interactively.  Jupyter Notebooks can be run natively in [Visual Studio Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) and this repository has notebooks for [Python](src/clive_intersight_python.ipynb) and [PowerShell](src/clive_intersight_powershell.ipynb)
+
+Docker can be also be used to build and run eveything needed by Jupyter Notebook.  Below are instructions on running the required environment with Docker (Cisco Live Labs use a Docker environment)
 
 
 ## Build the Docker Image
