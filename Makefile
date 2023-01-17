@@ -1,5 +1,5 @@
-IMAGENAME := "developenv/devenv-base-bootstrap-dind-vpn"
-# IMAGENAME := "dsoper/devenv-base-bootstrap-dind-vpn"
+# IMAGENAME := "developenv/devenv-base-bootstrap-dind-vpn"
+IMAGENAME := "dsoper/devenv-base-bootstrap-dind-vpn"
 VERSION := "latest"
 INSTANCENAME := "devenv-base-bootstrap-dind-vpn"
 
